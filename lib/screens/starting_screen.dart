@@ -1,4 +1,3 @@
-import 'package:cupertino_icons/cupertino_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:mymessenger/screens/registration_screen.dart';
@@ -17,42 +16,42 @@ class _StartingScreenState extends State<StartingScreen> {
     return Scaffold(
       backgroundColor: Colors.deepOrange,
       body: Padding(
-        padding: EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(20.0),
         child: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Expanded(
+            const Expanded(
               flex: 1,
               child: SizedBox(),
             ),
             Expanded(
-              flex: 5,
+              flex: 6,
               child: Container(
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(50.0)),
                 ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
+                    const Icon(
                       CupertinoIcons.chat_bubble_text_fill,
                       size: 100.0,
                       color: Colors.deepOrangeAccent,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20.0,
                     ),
-                    Text(
+                    const Text(
                       'Messenger',
                       style: TextStyle(
                         fontSize: 45.0,
                         color: Colors.black54,
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 150.0,
                     ),
                     MaterialButton(
@@ -63,10 +62,10 @@ class _StartingScreenState extends State<StartingScreen> {
                       elevation: 3,
                       minWidth: 200.0,
                       height: 50.0,
-                      shape: RoundedRectangleBorder(
+                      shape: const RoundedRectangleBorder(
                           borderRadius:
                               BorderRadius.all(Radius.circular(50.0))),
-                      child: Text(
+                      child: const Text(
                         'Log in',
                         style: TextStyle(color: Colors.white, fontSize: 18.0),
                       ),
@@ -80,11 +79,11 @@ class _StartingScreenState extends State<StartingScreen> {
                         color: Colors.white,
                         minWidth: 200.0,
                         height: 50.0,
-                        shape: RoundedRectangleBorder(
+                        shape: const RoundedRectangleBorder(
                             borderRadius:
                                 BorderRadius.all(Radius.circular(50.0)),
                             side: BorderSide(color: Colors.red, width: 2)),
-                        child: Text(
+                        child: const Text(
                           'Register',
                           style: TextStyle(color: Colors.red, fontSize: 18.0),
                         ),
@@ -94,7 +93,7 @@ class _StartingScreenState extends State<StartingScreen> {
                 ),
               ),
             ),
-            Expanded(
+            const Expanded(
               flex: 1,
               child: SizedBox(),
             ),
