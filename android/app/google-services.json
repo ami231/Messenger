@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "680832435459",
+    "project_id": "messenger-bba4a",
+    "storage_bucket": "messenger-bba4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680832435459:android:6c38d50351ef8553ec5536",
+        "android_client_info": {
+          "package_name": "com.example.mymessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680832435459-3mipqcfejm64tcsc5ta0t7uea4fp8r6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6FOuFtxvcyXv9iRoPogWebWNUvPcUq1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680832435459-3mipqcfejm64tcsc5ta0t7uea4fp8r6h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "680832435459-7dvcfgs7gf3d6hq23j6koltdaf80kna9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mymessenger"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
